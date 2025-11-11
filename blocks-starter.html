@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="color-scheme" content="light dark">
+	<title>Starter form components</title>
+	<meta name="apple-mobile-web-app-title" content="Starter">
+	<meta name="description" content="Standard form field components for digital forms, based on real-world design patterns.">
+	<meta name="author" content="Blocks Edit">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="favicon.ico">
+	<link rel="apple-touch-icon" href="appicon.png">
+<!-- Open Graph -->
+	<meta property="og:site_name" content="Starter">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="">
+	<meta property="og:title" content="Starter form components">
+	<meta property="og:description" content="Standard form field components for digital forms, based on real-world design patterns.">
+	<meta property="og:image" content="">
+</head>
+
+<body>
+
+<!-- Content -->
+<main class="container">
+
+<!-- Content elements -->
+	<h1 class="block-component block-edit" data-group="content-h1" data-block="content-h1-text" data-title="Content H1">A better way to run your business</h1>
+
+	<h2 class="block-component block-edit" data-group="content-h2" data-block="content-h2-text" data-title="Content H2">Tool available</h2>
+
+	<h3 class="block-component block-edit" data-group="content-h3" data-block="content-h3-text" data-title="Content H3">Help docs</h3>
+
+	<p class="block-component block-edit" data-group="content-description" data-block="content-description-text" data-title="Content paragraph">Running your business can get complicated but it doesn't have to! It requires focusing on basic principles and the core of what makes you and your product or service unique. We'll help you with that focus.</p>
+
+	<img src="https://blocksedit.com/starter/img/photo-new.jpg" width="100%" class="border fill block-component block-edit" data-group="content-image" data-block="content-image-image" data-title="Content image" alt="">
+
+	<a href="#" class="btn block-component block-edit" data-group="content-cta" data-block="content-cta-text" data-title="Main button">Get started</a>
+
+	<a href="#" class="btn btn-alt block-component block-edit" data-group="content-cta-alt" data-block="content-cta-alt-text" data-title="Alt button">More info</a>
+
+<!-- Form fields -->
+	<section class="box box-full block-section" data-group="form" data-title="Form container">
+		<form action="" method="">
+			<p class="block-edit" data-block="form-intro">Use the form below to contact us.</p>
+			<div class="row block-region" data-group="form-fields"></div>
+			<div class="col-12 row block-component" data-group="two-column-text-field-component" data-title="Two-column text fields">
+				<div class="col-6">
+					<label for="text-input" class="block-edit" data-block="text-field-label">First name</label>
+					<input type="text" name="" id="text-input" class="block-edit" data-block="text-field">
+				</div>
+				<div class="col-6">
+					<label for="text-input-2" class="block-edit" data-block="text-field-label-2">Last name</label>
+					<input type="text" name="" id="text-input-2" class="block-edit" data-block="text-field-2">
+				</div>
+			</div>
+			<div class="col-12 block-component" data-group="text-field-component" data-title="Single text field">
+				<label for="text-input-3" class="block-edit" data-block="text-field-label">Organization</label>
+				<input type="text" name="" id="text-input-3" class="block-edit" data-block="text-field-3">
+			</div>
+			<div class="col-12 block-component" data-group="email-field-component" data-title="Email field">
+				<label for="email-input" class="block-edit" data-block="text-field-label">Email address</label>
+				<input type="email" name="" id="email-input" class="block-edit" data-block="email-field" required>
+			</div>
+			<div class="col-12 block-component" data-group="tel-field-component" data-title="Phone number field">
+				<label for="tel-input" class="block-edit" data-block="text-field-label">Phone number</label>
+				<input type="tel" name="" id="tel-input" class="block-edit" data-block="tel-field">
+			</div>
+			<div class="col-12 row block-component" data-group="three-column-text-field-component" data-title="Three-column text fields">
+				<div class="col-4">
+					<label for="text-input-4" class="block-edit" data-block="text-field-label-4">City</label>
+					<input type="text" name="" id="text-input-4" class="block-edit" data-block="text-field-4">
+				</div>
+				<div class="col-4">
+					<label for="text-input-5" class="block-edit" data-block="text-field-label-5">State</label>
+					<input type="text" name="" id="text-input-5" class="block-edit" data-block="text-field-5">
+				</div>
+				<div class="col-4">
+					<label for="text-input-6" class="block-edit" data-block="text-field-label-6">ZIP code</label>
+					<input type="text" name="" id="text-input-6" class="block-edit" data-block="text-field-6">
+				</div>
+			</div>
+			<div class="col-12 block-component" data-group="select-field-component" data-title="Select field">
+				<label for="select" class="block-edit" data-block="select-field-label">Subject</label>
+				<select id="select" class="block-edit" data-block="select-field" required>
+					<option value="">Choose one</option>
+					<option value="">Issue</option>
+					<option value="">Request</option>
+				</select>
+			</div>
+			<div class="col-12 block-component" data-group="file-upload-field-component" data-title="File upload field">
+				<label for="" class="block-edit" data-block="file-upload-field-label">Include attachment</label>
+				<input type="file" class="block-edit" data-block="file-upload-field">
+			</div>
+			<div class="col-12 block-component" data-group="text-area-component" data-title="Text area field">
+				<label for="textarea" class="block-edit" data-block="text-area-field-label">Questions/comments</label>
+				<textarea rows="5" id="textarea" name="" class="block-edit" data-block="text-area-field"></textarea>
+			</div>
+			<div class="col-12 block-component" data-group="radio-field-component" data-title="Radio buttons">
+				<fieldset>
+					<legend class="block-edit">Receive notifications?</legend>
+					<ul style="margin-left: 0; list-style: none;">
+						<li class="block-region block-repeat" data-group="radio-buttons"><input type="radio" name="radio" id="radio" name="" value="Radio" class="block-edit" data-block="radio-field" required> <label for="radio" class="block-edit" data-block="radio-field-label">All notifications</label></li>
+					</ul>
+				</fieldset>
+			</div>
+			<div class="col-12 block-component" data-group="checkbox-field-component" data-title="Checkboxes">
+				<fieldset>
+					<legend class="block-edit">Emails to receive:</legend>
+					<ul style="margin-left: 0; list-style: none;">
+						<li class="block-region block-repeat" data-group="checkboxes"><input type="checkbox" name="checkbox" value="Comments" id="checkbox" class="block-edit" data-block="checkbox-field" required> <label for="checkbox" class="block-edit" data-block="checkbox-field-label">Account info and changes</label></li>
+					</ul>
+				</fieldset>
+			</div>
+			<input type="submit" value="Submit" class="btn block-edit" data-block="submit-button">
+		</form>
+	</section>
+
+</main>
+
+</body>
+</html>
